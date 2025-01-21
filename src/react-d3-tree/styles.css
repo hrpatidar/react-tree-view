@@ -1,0 +1,32 @@
+.link-good {
+  stroke: green;
+  stroke-width: 2px;
+}
+.link-poor {
+  stroke: red;
+  stroke-width: 2px;
+}
+.link-fair {
+  stroke: yellow;
+  stroke-width: 2px;
+}
+.tooltip {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.link-default {
+  stroke: gray;
+  stroke-width: 2px;
+}
+
+.link-highlight {
+  stroke: orange !important;
+  stroke-width: 4px !important;
+  transition: stroke 0.2s ease-in-out;
+}

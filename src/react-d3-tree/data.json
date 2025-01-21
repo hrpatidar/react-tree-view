@@ -1,0 +1,38 @@
+{
+  "name": "Gateways",
+  "attributes": { "nodeType": "gateway", "connectionStatus": "good" },
+  "children": [
+    {
+      "name": "Core",
+      "attributes": { "nodeType": "switch", "connectionStatus": "good" },
+      "children": [
+        {
+          "name": "Access 1",
+          "attributes": {
+            "nodeType": "access_point",
+            "connectionStatus": "fair"
+          },
+          "children": [
+            {
+              "name": "Wired Access 1",
+              "attributes": { "nodeType": "switch", "connectionStatus": "good" }
+            }
+          ]
+        },
+        {
+          "name": "Access 2",
+          "attributes": { "nodeType": "switch", "connectionStatus": "good" },
+          "children": [
+            {
+              "name": "Wired Access 2",
+              "attributes": {
+                "nodeType": "access_point",
+                "connectionStatus": "good"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
